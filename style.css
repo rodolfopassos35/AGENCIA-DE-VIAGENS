@@ -1,0 +1,345 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+body {
+    background-color: #80808029;
+}
+header {
+    width:100%;
+    height:55px;
+    background-color:#fff;
+}
+.limita-largura-topo {
+    max-width:1024px;
+    margin:0 auto;
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+}
+.limita-largura-topo img {
+    width:32px;
+    height:32px;
+}
+.limita-largura-topo p {
+    font-size:24px;
+    color:#5d15d1;
+    margin-left:10px;
+}
+/* conteúdo principal/seção formulário */
+
+main {
+    background-image: url('imagens/bahia.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:auto;
+}
+.limita-largura {
+    width:1024px;
+    margin:0 auto;
+    padding:50px 0;
+}
+.secao-formulario {
+    background-color: #fff;
+    padding:30px 25px 20px 25px;
+}
+.faixa {
+    background-color:#5d15d1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:35px;
+}
+.faixa img {
+    width:20px;
+    height:20px;
+    margin-right: 10px;
+    transform: rotate(-45deg);
+}
+.faixa h1 {
+    font-size: 14px;
+    color:#fff;
+}
+.secao-formulario h2 {
+    font-size:22px;
+    margin-bottom:24px ;
+}
+form {
+    display:flex;
+    flex-direction: column;
+}
+label {
+    font-size:16px;
+    color:#000;
+    font-weight: 900;
+}
+
+.dados input,
+.container-datas input,
+.container-select input,
+select {
+    height:32px;
+    margin:10px 0;
+    width:100%;
+    padding-left:5px;
+}
+.container-datas,
+.container-select {
+    display:flex;
+    gap:20px;
+}
+.datas,
+.select {
+    width: 100%;
+}
+.agrupa-radio {
+    max-width: 200px;
+}
+.radio {
+    width: 190px;
+    display:flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.agrupa-checkbox  {
+    margin:10px 0;
+    display:flex;
+    justify-content: space-between;
+    width: 420px;
+}
+button {
+    width:160px;
+    height:40px;
+    font-size: 14px;
+    background-color: #5d15d1;
+    padding:10px;
+    color:#fff;
+    font-weight: 900;
+    margin-top:12px;
+    cursor: pointer;
+}
+/* seção oferta */
+.largura-limitada {
+    max-width: 1024px;
+    margin:0 auto;
+}
+.secao-oferta {
+    width:100%;
+    height:auto;
+    margin:32px auto 0 auto;
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color:#333;
+}
+h4 span {
+    font-weight:bold;
+    color: #000;
+    font-size: 20px;
+}
+.container-imagens {
+    width:100%;
+    height: 375px;
+    display:flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.foto-destaque {
+    width:100%;
+    height: 100%;
+}
+.foto-destaque figure {
+    position: relative;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+}
+.foto-destaque img {
+    width:100%;
+    height:100%;
+}
+figcaption{
+    background-color: rgba( 0, 0,0, 50%);
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width:100%;
+    height:auto;
+    font-size: 17px;
+    padding: 5px 10px;
+}
+.quatro-imagens {
+    width:calc(100% - 10px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+}
+.quatro-imagens figure {
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+}
+.quatro-imagens img {
+    height:100%; 
+    width:100%;
+    /* margin: 10px; */
+}
+/* seçao anuncio */
+
+.agrupa-cards {
+    width:100%;
+    height: auto;
+    display:flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.container-imagem img{
+    width:100%;
+    height: 100%;
+}
+.card1,.card2 {
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+}
+.texto-card {
+
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+h5 {
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.texto-card p {
+    font-size: 14px;
+    color: gray;
+}
+/* seção rodape */
+footer {
+    background-color: #5d15d1;
+    color:#fff;
+    width: 100%;
+    display: flex;
+}
+footer img {
+    width: 18px;
+}
+.container-conteudo-footer {
+    display:flex;
+    justify-content: space-between;
+    width: 1024px;
+    margin: 0 auto;
+}
+.contatos{ 
+    width: 300px;
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+.redes-sociais{
+    width: 220px;
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+h6 {
+    font-size:20px;
+    margin-bottom:15px;
+}
+.contatos div,.redes-sociais div{
+    display:flex;
+    margin: 5px 0;
+}
+span {
+    margin-left:10px;
+}
+/* Media Queries */
+
+@media (max-width:1100px) {
+    .limita-largura-topo,
+    .limita-largura,
+    .largura-limitada {
+        width:90%;
+    }
+}
+@media (max-width:768px) {
+    button{
+        width:100%;
+    }
+    .container-imagens {
+        width: 100%;
+        height:100%;
+        display:flex;
+        flex-direction:column;
+    }
+    .container-imagens figure {
+        height:225px;
+        margin-top:15px;
+    }
+    .quatro-imagens {
+        display:flex;
+        flex-direction:column;
+    }
+    .quatro-imagens figure {
+        width:100%;
+    }
+    .agrupa-cards {
+        display:flex;
+        flex-direction:column;
+    }
+    .card1,.card2 {
+        width:100%;
+        margin-top:15px;
+    }
+    .container-conteudo-footer  {
+        width:100%;
+        display:flex;
+        align-items:center;
+        flex-direction:column;
+    }
+    .contatos,.redes-sociais {
+        display:flex;
+        width:270px
+    }
+}
+@media (max-width:540px) {
+    .secao-formulario {
+        display:flex;
+        flex-direction: column;
+    }
+    .container-datas,
+    .container-select {
+        display:flex;
+        flex-direction:column;
+    }
+    .agrupa-radio {
+        display:flex;
+        flex-direction:column;
+        max-width:100%;
+    }
+    .radio {
+        display:flex;
+        flex-direction: column;
+        height:80px;
+        width:100%;
+    }
+    .agrupa-checkbox {
+        display:flex;
+        flex-direction:column;
+        height:200px
+    }
+}
